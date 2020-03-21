@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <title>Movie Guru</title>
+</head>
+
+<body onload="welcomeUser()">
+<nav class="navbar navbar-expand-lg mynavbar">
+    <a class="navbar-brand"><img id="icon" class="navIcon" src="./pngtree-guru-logo-vector-design-icon-png-image_1928164.jpg"/>  Movie Guru</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" onclick="gotoSearchMenu()">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" >Donate</a>
+            </li>
+            <li class="nav-item active dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown link
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" onclick="gotoAccount()">Account</a>
+                    <a class="dropdown-item" onclick="logout()">Logout</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--<div class='header'>-->
+    <!--<h1><img id="icon" src="./pngtree-guru-logo-vector-design-icon-png-image_1928164.jpg"/> Movie Guru</h1>-->
+
+<!--</div>-->
+<hr>
+<div id='app'>
+    <form>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class=".col-sm-1 align-self-center">
+                    <div id='suggestionSearch'>
+                        <input class="form-control form-rounded" id='inputText' type=text placeholder=Search...></input>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id='moreInfoMovie'>
+
+        </div>
+    </form>
+</div>
+</body>
+
+<script src="./scripts/main.js"></script>
+<script src="./scripts/utils.js"></script>

@@ -1,0 +1,179 @@
+body {
+  font: 16px Arial;
+  background-color: #e4e9f2;
+}
+
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #518ded;
+  color: white;
+  font-size: 30px;
+  border-radius: 25px;
+}
+
+/*#suggestionSearch {*/
+  /*padding-left: 42%;*/
+  /*width: 50%;*/
+/*}*/
+
+/*input {*/
+  /*width: 30%;*/
+  /*border-radius: 25px;*/
+  /*padding: 5px;*/
+/*}*/
+
+.suggestionDiv {
+  position: relative;
+  left: 30%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+.suggestionDiv table:hover {
+  border: 3px solid #518ded;
+  border-radius: 25px;
+}
+
+/*td {*/
+  /*border-radius: 25px;*/
+/*}*/
+
+/*table {*/
+  /*border-radius: 25px;*/
+  /*border: 3px solid black;*/
+/*}*/
+
+.poster {
+  width: 250px;
+  height: 290px;
+  border-radius: 25px;
+}
+
+#loginIcon {
+  width:100px;
+  height: 130px;
+  border-radius: 25px;
+}
+
+#suggestionTable{
+  width: 50%;
+}
+
+.showMoreButton {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color: #518ded;
+}
+
+.showMorePoster {
+  width: 369px;
+  height: 480px;
+  border-radius: 25px;
+}
+
+#metadata {
+  position: relative;
+  left: 25%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+.metaDataTable {
+  width: 60%;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.plot {
+  width: 500px;
+  word-wrap: normal;
+}
+
+.test {
+width: 260px;
+  height: 300px;
+}
+
+.bookmarkButton{
+  width: 50px;
+  height: 50px;
+  top:50%;
+  left: 50%;
+  margin-top: -45px;
+  margin-left: -50px;
+  border-radius: 5px;
+  background: none;
+  cursor: pointer;
+  transition: background 0.5s ease;
+}
+.bookmarkButton:hover{
+  color: #ff0e28;
+}
+
+.storedBookmarkButton {
+  width: 50px;
+  height: 50px;
+  top:50%;
+  left: 50%;
+  margin-top: -45px;
+  margin-left: -50px;
+  border-radius: 5px;
+  background: none;
+  cursor: pointer;
+  transition: background 0.5s ease;
+  color: #ff0e28;
+}
+
+.form-rounded {
+  border-radius: 1rem;
+}
+
+.input-error{
+  border: 1px solid #ff192f;
+}
+
+.mynavbar {
+  background-color: #518ded;
+  color: aliceblue;
+}
+
+.mainRoundedButton {
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.sign {
+  background-color: #518ded;
+}
+
+.sign:hover {
+  background-color: #0aff4d;
+}
+
+.cancel {
+  background-color: #ff192f;
+}
+
+.cancel:hover {
+  background-color: #ffab0f;
+}
+
+.navIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+}
